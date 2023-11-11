@@ -1,0 +1,7 @@
+black
+scikit-learn
+numpy
+tensorflow
+librosa
+pip-tools
+pytest
