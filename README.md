@@ -1,4 +1,4 @@
-GZTAN Music Classification
+# GZTAN Music Classification
 
 Setup
 -----
@@ -19,3 +19,9 @@ Once the virtual environment is activated, install the python requirements via:
 ```
 pip install -r requirements.txt
 ```
+
+Data was downloaded from Kaggle ([link](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)) due to tensorflow datasets timing out at time of development.  Ensure that the location of the dataset corresponds to the arguments passed into classify/prepare_dataset.py
+
+Running the code
+-----
+The data is prepared using `classify/prepare_dataset.py`, you can use the default arguments or override them as needed.  The network is build, trained, and tested using `classify/train_and_predict.py`.
