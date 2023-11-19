@@ -1,5 +1,8 @@
 # GZTAN Music Classification
 
+
+
+
 Setup
 -----
 Prerequisites: brew ([brew.sh](brew.sh) for installation instructions)
@@ -25,3 +28,10 @@ Data was downloaded from Kaggle ([link](https://www.kaggle.com/datasets/andradao
 Running the code
 -----
 The data is prepared using `classify/prepare_dataset.py`, you can use the default arguments or override them as needed.  The network is build, trained, and tested using `classify/train_and_predict.py`.
+
+Results
+-----
+This model achieves a 63.33% accuracy on the test set with the best model (based on validation accuracy) after 200 epochs of training
+
+![Accuracy](results/accuracy-gztan-dataset-2023-11-17-22.00.png)
+![Loss](results/loss-gztan-dataset-2023-11-17-22.00.png)
