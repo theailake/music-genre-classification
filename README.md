@@ -37,7 +37,7 @@ The data is prepared using `classify/prepare_dataset.py`, you can use the defaul
 
 Results
 -----
-This model achieves a 63.33% accuracy on the test set with the best model (based on validation accuracy) after 200 epochs of training
+This model achieves a 63.33% accuracy on the test set with the best model (based on validation accuracy) after 200 epochs of training with minibatches of 32
 
 ![Accuracy](results/accuracy-gztan-dataset-2023-11-17-22.00.png)
 ![Loss](results/loss-gztan-dataset-2023-11-17-22.00.png)
