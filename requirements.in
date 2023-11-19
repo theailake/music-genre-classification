@@ -11,3 +11,4 @@ matplotlib
 keras
 pre-commit==3.5.0
 flake8
+pydot
